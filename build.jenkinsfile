@@ -1,3 +1,7 @@
+agent {
+  dockerfile true
+}
+
 pipeline{ 
 stages {
   stage('Build') {
